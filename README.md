@@ -79,7 +79,8 @@ If you have no issues doing that, you're all good to go!
 
 ## 4. Download files for the tutorial
 
-You can downlaod some files that contain data for the tutorial - we will be using these during the tutorial itself.
+You can downlaod some files that contain data for the tutorial - we will be using these files during the live tutorial.
 
 You can download the full folder [here](https://files.de-1.osf.io/v1/resources/3txqr/providers/osfstorage/64b55a44903ac10021dcc910/?zip=) or the two physiological files [here](https://osf.io/download/64b55a9e903ac10028dcc8e5/) and [here](https://osf.io/download/64b55a6c465d140032a3175b/).
 
+However, feel free to _also_ bring your own data, if you have any!
