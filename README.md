@@ -81,6 +81,9 @@ If you have no issues doing that, you're all good to go!
 
 You can downlaod some files that contain data for the tutorial - we will be using these files during the live tutorial.
 
-You can download the full folder [here](https://files.de-1.osf.io/v1/resources/3txqr/providers/osfstorage/64b55a44903ac10021dcc910/?zip=) or the two physiological files [here](https://osf.io/download/64b55a9e903ac10028dcc8e5/) and [here](https://osf.io/download/64b55a6c465d140032a3175b/).
+You can download the physiological files [here](https://osf.io/download/64b55a9e903ac10028dcc8e5/) and [here](https://osf.io/download/64b55a6c465d140032a3175b/). There is BOLD fMRI data associated to these physiological files to play with, as well as motion paramters ready for denoising, [here](https://files.de-1.osf.io/v1/resources/3txqr/providers/osfstorage/64b5f2c7465d1400cfa31ac3/?zip=).
+The results and intermediate steps of the tutorial can be found [here](https://files.de-1.osf.io/v1/resources/3txqr/providers/osfstorage/64b55ab8903ac10028dcc8e9/?zip=).
 
-However, feel free to _also_ bring your own data, if you have any!
+You can also download the full folder with all files [here](https://files.de-1.osf.io/v1/resources/3txqr/providers/osfstorage/64b55a44903ac10021dcc910/?zip=).
+
+If you have your own data, feel free to _also_ bring it with you! I would suggest to download the tutorial data as well, just in case there is any issue.
