@@ -93,10 +93,31 @@ ph.history
 # Export the file
 pk.save_physio("sub-007_ses-05_task-rest_run-01_card_peaks.phys", ph)
 
+# Extract cardiac channel and initialise the data
+phys = pk.Physio(data[idx_0:, 3], fs=10000)
 
-# ######################################
-#  Part 2: prepare physiological models
-# ######################################
+# First plot
+pk.plot_physio(phys)
+plt.show()
+
+# run the neuroki2 peak detection algorithm
+ph = pk.operations.neurokit_processing(phys, modality="ppg", method="elgendi")
+
+# {'add': [6150, 6320, 17096, 19494, 21235, 25708, 25746, 25792]}
+# Check the file history
+try:
+    # Manually edit peaks - yes, you do need to at least check them.
+    ph = pk.operations.edit_physio(ph)
+    ph.history
+    # Export the file
+    pk.save_physio("sub-007_ses-05_task-rest_run-01_card_peaks.phys", ph)
+
+except AttributeError:
+    print("No troughs, so no modification")
+
+######################################
+# Part 2: prepare physiological models
+######################################
 
 # Load the saved cardiac physiological file → allow pickle!!!
 card = pk.load_physio(
